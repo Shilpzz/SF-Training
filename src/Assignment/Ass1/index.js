@@ -27,12 +27,12 @@ const companies = [
       outputHtmlSnippet += '<li>' + company.name + ' - ' + company.hq + ' - ' + company.indiaLocations.join(', ') + '</li>';
     }
   
-    //Better way to iterate
-    companies.forEach(function(company) {
-      outputHtmlSnippet += '<li>' + company.name + ' - ' + company.hq + ' - ' + company.indiaLocations.join(', ') + '</li>';
-    });
+    // //Better way to iterate
+    // companies.forEach(function(company) {
+    //   outputHtmlSnippet += '<li>' + company.name + ' - ' + company.hq + ' - ' + company.indiaLocations.join(', ') + '</li>';
+    // });
   
-    outputHtmlSnippet += '</ol>'
+    // outputHtmlSnippet += '</ol>'
   
     //Step 3
     companyInfoDiv.innerHTML = outputHtmlSnippet;
